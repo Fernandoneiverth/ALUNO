@@ -16,7 +16,7 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return nome + endereco;
+        return nome;
     }
 
     public int getCodigo() {
