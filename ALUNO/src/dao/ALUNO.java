@@ -8,11 +8,8 @@ package dao;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
+import modelo.ALUNO;
 
-/**
- *
- * @author Administrador
- */
 public class ALUNO {
      public static boolean inserir(ALUNO objeto) {
         String sql = "INSERT INTO ALUNO (nome, endereco) VALUES (?, ?)";
